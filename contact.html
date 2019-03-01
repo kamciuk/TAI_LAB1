@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To moj tytul strony!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel=" stylesheet" href ="style.css">
+</head>
+<body>
+<div class = "container">
+    <ul class="nav">
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Quiz</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+        </li>
+    </ul>
+<form>
+    <div-class = "form-group">
+    <label for="name">Imię:</label>
+    <input type = "text" class = "form-control" id = "name" placeholder="Podaj imie">
+    <label for="surname">Nazwisko:</label>
+    <input type = "text" class = "form-control" id = "surname" placeholder="Podaj nazwisko">
+    <label for="email">E-mail:</label>
+    <input type = "email" class = "form-control" id = "email" placeholder="Podaj email">
+    <p>Płeć</p>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="gender" id="gender1" value="female">
+        <label class="form-check-label" for="gender1">Kobieta</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="gender" id="gender2" value="male">
+        <label class="form-check-label" for="gender2">Mężczyzna</label>
+    </div>
+    <div class="form-group">
+        <label for="description">Opis</label>
+        <textarea class="form-control" id="description" rows="3"></textarea>
+    </div>
+    <label for="age">Wiek:</label>
+    <input type = "number" class = "form-control" id = "age" min="5" max = "100" value = "18">
+    <div class="form-group">
+        <label for="select">Stan cywilny:</label>
+        <select class="form-control" id="select">
+            <option>Panna/Kawaler</option>
+            <option>Wdowa/Wdowiec</option>
+            <option>Mężatka/Żonaty</option>
+            <option>Rozwiedzona/Rozwiedzony</option>
+        </select>
+    </div>
+    <input class="btn btn-primary" type="reset" value="Wyczyść">
+    <input class="btn btn-primary" type="submit" value="Wyślij">
+
+    </div-class>
+</form>
+</div>
+</body>
+</html>
